@@ -1942,7 +1942,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff5400;
+  background: #16e828;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3030,7 +3030,6 @@ img:hover {
 }
 .links-of-author-item {
   margin: 5px 0 0;
-  width: 50%;
 }
 .links-of-author-item a {
   max-width: 216px;
@@ -3080,9 +3079,7 @@ img:hover {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   margin: 5px 0 0;
-  width: 50%;
   display: inline-block;
-  width: unset;
 }
 .links-of-blogroll-inline .links-of-blogroll-item a {
   max-width: 216px;
@@ -3242,7 +3239,7 @@ img:hover {
 }
 body {
   background: none;
-  background-image: url("https://lx-1251342588.cos.ap-chengdu.myqcloud.com/bg.jpg");
+  background-image: url("/images/bg.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3359,7 +3356,7 @@ body {
 .site-meta {
   height: 100px;
   background: none;
-  background-image: url("https://lx-1251342588.cos.ap-chengdu.myqcloud.com/2.jpg");
+  background-image: url("/images/logo.jpg");
   background-size: cover;
 }
 @media (max-width: 767px) {
@@ -3367,4 +3364,58 @@ body {
     height: 80px;
     background: #222;
   }
+}
+.posts-expand .post-body img {
+  border: 0px;
+}
+* {
+  cursor: url("/images/default.cur"), auto;
+}
+:active {
+  cursor: url("/images/pointer.cur"), auto;
+}
+:link {
+  cursor: url("/images/pointer.cur"), auto;
+}
+.posts-expand .post-tags {
+  margin: 40px 10px 0;
+  text-align: center;
+}
+.posts-expand .post-tags a {
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  font-family: 'Comic Sans MS', sans-serif;
+  transition: 0.2s ease-out;
+  padding: 3px 5px;
+  margin: 5px;
+  background: #eee;
+  border-bottom: none;
+  border-radius: 15px;
+}
+.posts-expand .post-tags a:hover {
+  background: rgba(100,154,182,0.902);
+  color: #fff;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.tag-cloud a {
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: 0.2s ease-out;
+  padding: 2px 10px;
+  margin: 5px;
+  background: #eee;
+  border-bottom: none;
+  border-radius: 12px;
+}
+.tag-cloud a:hover {
+  text-decoration: none;
+  background: rgba(100,154,182,0.902);
+  color: #fff !important;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
