@@ -1942,7 +1942,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #abff82;
+  background: #90ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3476,26 +3476,31 @@ pre {
   margin: 0px auto 20px;
   width: 0;
 }
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+@font-face {
+  font-family: MMT;
+  src: url("/fonts/MMT_579767_SOAJ0.ttf");
 }
-::-webkit-scrollbar-track-piece {
-  background-color: #555;
-  border-radius: 5px;
+@font-face {
+  font-family: STLiti;
+  src: url("/fonts/STLITI.TTF");
 }
-::-webkit-scrollbar-thumb {
-  height: 50px;
-  background-color: #1b1b1b;
-  -webkit-border-radius: 5px;
+@font-face {
+  font-family: Title;
+  src: url("/fonts/Title.ttf");
 }
-.github-corner svg {
-  width: 80px;
-  height: 80px;
+.site-title {
+  font-family: Title;
+  font-size: 220%;
+}
+.site-subtitle {
+  font-family: STLiti;
+  font-size: 15px;
+  color: #eee;
+  margin-top: 22px;
 }
 @media (max-width: 767px) {
-  .github-corner svg {
-    width: 40px;
-    height: 40px;
+  .site-subtitle {
+    font-size: 13px;
+    color: #ddd;
   }
 }
