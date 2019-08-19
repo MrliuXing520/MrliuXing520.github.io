@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://laustar.fun/"/>
-  <updated>2019-08-19T07:46:26.410Z</updated>
+  <updated>2019-08-19T08:14:56.083Z</updated>
   <id>http://laustar.fun/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://laustar.fun/posts/Visual-Studio-Code.html/"/>
     <id>http://laustar.fun/posts/Visual-Studio-Code.html/</id>
     <published>2019-08-19T05:56:51.000Z</published>
-    <updated>2019-08-19T07:46:26.410Z</updated>
+    <updated>2019-08-19T08:14:56.083Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="git备份上传失败原因"><a href="#git备份上传失败原因" class="headerlink" title="git备份上传失败原因"></a>git备份上传失败原因</h4><p>不少朋友在备份自己的博客是会出现失败的情况，打开Github后会发现有很多文件都没有上传成功，这是因为你本地博客目录下和主题目录下<code>.git</code>文件存在所导致的。而细心的人会第一时间去删除<code>.git</code>，但会发现并没有这个文件，这是因为<code>.git</code>本身是隐藏的，所以无法看到。</p><h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><p>在<code>默认设置</code>中，Visual Studio Code 将下列文件文件排除在显示列表中：</p><blockquote><p>“files.exclude”: {<br>    “<strong>/.git”: true,<br>    “</strong>/.svn”: true,<br>    “<strong>/.hg”: true,<br>    “</strong>/.DS_Store”: true<br>}</p></blockquote><p>你可以修改用户设置或者工作区设置，将.git文件添加到显示列表中</p><blockquote><p>“files.exclude”: {<br>     “**/.git”: false<br>}</p></blockquote><p>如果在Visual Studio Code的设置页面中，可以使用下面的步骤修改设置：<br><code>1. 文件 &gt; 首选项 &gt; 设置</code><br>图一：设置页面<br><img src="https://laustar.fun/posts/Code/1.png" alt="kyrie irving"></p><p><code>2. 用户设置 &gt; 文本编辑器 &gt; Exclude，找到对应排除的项”**/.git“，并删除它，隐藏的.git文件就会自动出现</code>，如下图：</p><p>图二：排除文件页面<br> <img src="/posts/Visual-Studio-Code.html/Code/2.png" alt="Alt text"></p><p>图三：显示.git文件的效果<br> <img src="/posts/Visual-Studio-Code.html/Code/3.png" alt="Alt text"></p><p>这样就完美解决了找不到<code>.git</code> 的问题，将文件删除后所以指令都无报错。</p>]]></content>
+    <content type="html"><![CDATA[<h4 id="git备份上传失败原因"><a href="#git备份上传失败原因" class="headerlink" title="git备份上传失败原因"></a>git备份上传失败原因</h4><p>不少朋友在备份自己的博客是会出现失败的情况，打开Github后会发现有很多文件都没有上传成功，这是因为你本地博客目录下和主题目录下<code>.git</code>文件存在所导致的。而细心的人会第一时间去删除<code>.git</code>，但会发现并没有这个文件，这是因为<code>.git</code>本身是隐藏的，所以无法看到。</p><h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><p>在<code>默认设置</code>中，Visual Studio Code 将下列文件文件排除在显示列表中：</p><blockquote><p>“files.exclude”: {<br>    “<strong>/.git”: true,<br>    “</strong>/.svn”: true,<br>    “<strong>/.hg”: true,<br>    “</strong>/.DS_Store”: true<br>}</p></blockquote><p>你可以修改用户设置或者工作区设置，将.git文件添加到显示列表中</p><blockquote><p>“files.exclude”: {<br>     “**/.git”: false<br>}</p></blockquote><p>如果在Visual Studio Code的设置页面中，可以使用下面的步骤修改设置：<br><code>1. 文件 &gt; 首选项 &gt; 设置</code><br>图一：设置页面<br><img src="https://i.loli.net/2019/08/19/Rdr6qOaxCSvNwgc.png" alt="Alt text"></p><p><code>2. 用户设置 &gt; 文本编辑器 &gt; Exclude，找到对应排除的项”**/.git“，并删除它，隐藏的.git文件就会自动出现</code>，如下图：</p><p>图二：排除文件页面<br> <img src="https://i.loli.net/2019/08/19/sx21O4rVCqBtjTz.png" alt="Alt text"></p><p>图三：显示.git文件的效果<br> <img src="https://i.loli.net/2019/08/19/Yz2lns4iv7X9jda.png" alt="Alt text"></p><p>这样就完美解决了找不到<code>.git</code> 的问题，将文件删除后所以指令都无报错。</p>]]></content>
     
     <summary type="html">
     
