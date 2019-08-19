@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://laustar.fun/"/>
-  <updated>2019-08-18T10:14:35.213Z</updated>
+  <updated>2019-08-19T05:18:48.665Z</updated>
   <id>http://laustar.fun/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>new post name</title>
+    <link href="http://laustar.fun/posts/new-post-name.html/"/>
+    <id>http://laustar.fun/posts/new-post-name.html/</id>
+    <published>2019-08-19T05:13:45.000Z</published>
+    <updated>2019-08-19T05:18:48.665Z</updated>
+    
+    <content type="html"><![CDATA[<p>123321</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;123321&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo 多终端同步</title>
