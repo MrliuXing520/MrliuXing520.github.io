@@ -731,7 +731,7 @@
 </script>
 <span id="busuanzi_container_page_uv">
     <i class="fa fa-user"></i>
-     <span id="busuanzi_value_site_uv"></span>人次  |  
+     <span id="busuanzi_value_site_uv"></span>  人次  |  
 </span>
 
 <!-- 网站运行时间的设置 -->
@@ -749,7 +749,7 @@
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
         document.getElementById("timeDate").innerHTML = ""+dnum+" 天 ";
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒 | ";
+        document.getElementById("times").innerHTML = hnum + "时 " + mnum + "分 " + snum + "秒 | ";
     }
 setInterval("createtime()",250);
 </script>
@@ -758,7 +758,7 @@ setInterval("createtime()",250);
 </script>
 <span id="busuanzi_container_site_pv">
  <i class="fa fa-eye"></i>
-	 <span id="busuanzi_value_site_pv"></span>次
+	  <span id="busuanzi_value_site_pv"></span>  次
 </span>
 
 
