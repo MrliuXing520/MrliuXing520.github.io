@@ -725,43 +725,25 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
-    <i class="fa fa-heartbeat"></i>
+        <div class="copyright">Copyright &copy; 2018 – <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Lau</span>
+  <span class="author" itemprop="copyrightHolder">.&ensp;</span>
+  <span title="博客总字数"><i class="fa fa-edit"></i>&ensp;<span class="post-count">2.8k</span>字</span>
+
+  
 
   
 </div>
 
-<!-- 网站运行时间的设置 -->
-<i class="fa fa-heartbeat"></i>
-<span id="timeDate">载入天数...</span>
-<span id="times">载入时分秒...</span>
-<script>
-    var now = new Date();
-    function createtime() {
-        var grt= new Date("08/01/2019 13:14:20");//此处修改你的建站时间或者网站上线时间
-        now.setTime(now.getTime()+250);
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "本站已运行 "+dnum+" 天 ";
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-    }
-setInterval("createtime()",250);
-</script>
 
-<span class="post-meta-divider">|</span>
 
-<div class="theme-info">
-  <div class="powered-by"></div>
-  <i class="fa fa-edit"></i>
-  <span class="post-count">共计2.8k字</span>
-</div>
+
+
+
+
+
 
 
         
