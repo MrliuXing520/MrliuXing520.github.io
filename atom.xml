@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://laustar.fun/"/>
-  <updated>2019-08-27T13:05:57.780Z</updated>
+  <updated>2019-08-27T12:37:20.565Z</updated>
   <id>http://laustar.fun/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>测试1</title>
-    <link href="http://laustar.fun/posts/%E6%B5%8B%E8%AF%951.html/"/>
-    <id>http://laustar.fun/posts/测试1.html/</id>
-    <published>2019-08-27T13:05:09.000Z</published>
-    <updated>2019-08-27T13:05:57.780Z</updated>
-    
-    <content type="html"><![CDATA[<p>123</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;123&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Visual Studio Code隐藏目录解决方案</title>
