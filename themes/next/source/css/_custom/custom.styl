@@ -1,0 +1,293 @@
+// Custom styles.
+//背景图
+body { 
+  //padding: 20px 0;
+  background: none;
+  background-image: url(http://wx1.sinaimg.cn/large/006Te2OUly1g67f0aip2kj30zk0m84bg.jpg); //微博图床
+  background-attachment: fixed; // 不随屏幕滚动而滚动fixed,scroll,inherit
+  background-repeat: no-repeat; // 如果背景图不够屏幕大小则重复铺，改为no-repeat则表示不重复铺
+  background-size: cover; // contain等比例铺满屏幕 //cover拉伸铺满
+  background-position: bottom;//x,y轴调整
+  +mobile(){
+    //background-position: 0% -20%;
+    background: #f5f7f9;
+    //background-size: cover;
+  }
+}
+
+//顶部条
+.headband {
+  height: 10px;
+  background: none;
+  +mobile(){
+    height: 0px;
+  }
+
+}
+
+.header-inner {
+  border-radius: 10px;
+}
+
+.posts-expand {
+    padding-top: 20px;
+}
+.content-wrap {
+  padding: 40px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);//none透明
+  +mobile(){
+    padding: 0px;
+    border-radius: 0px;
+    background: white;//rgba(255, 255, 255, 0.1)
+  }
+}
+
+//侧栏
+.sidebar{
+  border-radius: 10px;
+}
+.sidebar-inner{
+   border-radius: 10px;
+}
+
+//尾部
+.footer {
+  color: black;
+  font-family: STLiti; //"华文隶书"
+  font-size: 15px;
+  //bottom: -28px;
+  //border-radius: 10px;
+  //background: rgba(255, 255, 255, 0);
+
+  +mobile() {
+    font-size: 12px;
+    //border-radius: 0px;
+    bottom: -30px;
+    //background: rgba(255, 255, 255, 0.1);
+  }
+}
+.busuanzi-count {
+  color: DarkSlateGray;
+}
+
+//文章阴影
+#posts > article + article .post-block {
+    margin-top: 12px;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09); */
+    border-radius: 10px;
+}
+
+.post-block {
+    padding: 40px;
+    background: none;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12); */
+    border-radius: 10px;
+}
+
+//文章样式修改
+.posts-expand {
+    padding-top: 20px;
+}
+.content-wrap {
+  padding: 40px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);//none透明
+  +mobile(){
+    padding: 0px;
+    border-radius: 0px;
+    background: white;//rgba(255, 255, 255, 0.1)
+  }
+}
+
+//菜单栏
+.header-inner {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  +mobile(){
+    background: white;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0 14px #cacbcb;
+    -moz-box-shadow: 0 0 14px #cacbcb;
+    box-shadow: 0 0 14px #cacbcb;
+  }
+}
+.menu-item-active a {
+  background: rgba(255,255,255.0.1);
+  +mobile(){
+    background: #fff;
+  }
+}
+
+//侧栏
+.sidebar{
+  background: none;
+  border-radius: 10px;
+}
+.sidebar-inner{
+  padding: 10px 10px 10px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 10px;
+}
+
+//彩色linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%)
+.site-meta {
+  height: 100px;
+  background: none;
+  background-image: url(http://wx1.sinaimg.cn/large/006Te2OUly1g67f0b2rm5j31ao0t6q8q.jpg); //微博图床
+  background-size: cover;
+  +mobile(){
+    height: 80px;
+    background: #222;
+  }
+}
+
+//去掉图片边框
+.posts-expand .post-body img {
+    border: 0px;
+}
+
+//鼠标样式
+
+* {
+    cursor: url(/images/default.cur),auto;
+  }
+:active {
+    cursor: url(/images/pointer.cur),auto;
+  }
+:link {
+    cursor: url(/images/pointer.cur),auto;
+  }
+
+  //文章页内标签样式
+.posts-expand .post-tags {
+  margin: 40px 10px 0;
+  text-align: center;
+}
+.posts-expand .post-tags a {
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  font-family: 'Comic Sans MS', sans-serif;
+  transition: 0.2s ease-out;
+  padding: 3px 5px;
+  margin: 5px;
+  background: #eee;
+  border-bottom: none;
+  border-radius: 15px;
+
+  &:hover {
+  background: rgba(100,154,182,0.902);
+  color: #fff;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+}
+.tag-cloud a {
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: 0.2s ease-out;
+  padding: 2px 10px;
+  margin: 5px;
+  background: #eee;
+  border-bottom: none;
+  border-radius: 12px;
+
+  &:hover {
+  text-decoration: none;
+  background: rgba(100,154,182,0.902);
+  color: #fff !important;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+}
+
+//“> ”书签颜色
+blockquote {
+  padding: 0 15px;
+  color: #666;
+  border-left: 4px solid #ccc;
+}
+
+//选中文字的颜色
+::selection {
+    background: #00CED1;
+    color: #fff;
+}
+
+//小代码块
+code {
+    margin: 2px;
+    color: #c7254e;
+    background-color: #f9f2f488;
+    border-radius: 2px;
+}
+
+// 大代码块的自定义样式
+.highlight, pre {
+    margin: 5px;
+    padding: 5px;
+}
+pre .deletion {
+    background: rgba(255,0,0,0.2);
+}
+pre .addition {
+    background: rgba(0,255,255,0.2);
+}
+.highlight, pre {
+    border: 1px solid #bdc3c7;
+}
+.highlight figcaption {
+    background: #2d2d2d;
+    border-bottom: 1px solid #111;
+}
+
+//去掉图片边框
+.posts-expand .post-body img {
+    border: 0px;
+}
+
+// 文章内链接文本样式
+.post-body p a{
+  color: #5c4cc3;
+  border-bottom: none;
+  border-bottom: 1px solid #5c4cc3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+  }
+  &:active {
+    color: #df3ae0;
+    border-bottom: none;
+    border-bottom: 1px solid #df3ae0;
+  }
+}
+
+//文章分割线
+.posts-expand .post-eof {
+  display: block;
+  margin: 0px auto 20px;
+  width: 0;
+}
+
+//评论区
+.comments{
+     padding: 40px;
+    background: none;
+    -webkit-box-shadow: 0 0 14px #cacbcb;
+    -moz-box-shadow: 0 0 14px #cacbcb;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12); */
+    border-radius: 10px;
+}
+
+//评论区
+.comments{
+    padding: 40px;
+    background: none;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12); */
+    border-radius: 10px;
+}
