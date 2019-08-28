@@ -95,10 +95,10 @@ index_with_subtitle: false
 menu:
   首页: / || home
   #分类: /categories/ || th
-  #工具: /tags/ || tags
   归档: /archives/ || archive
   关于: /about/ || address-card
-  友链: /yqlj/ || child
+  工具: /tool/ || anchor
+  友链: /friends/ || child
   留言: /guestbook/ || comments
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap

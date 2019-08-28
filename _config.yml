@@ -81,8 +81,8 @@ theme: next
 deploy:
   type: git
   repository:
-      github: https://github.com/MrliuXing520/liu.git
-      coding: https://git.dev.tencent.com/mrliuxing/mrliuxing.coding.me.git
+      github: git@github.com:MrliuXing520/liu.git
+      coding: git@git.dev.tencent.com:mrliuxing/mrliuxing.coding.me.git
   branch: master
 
 # Extensions
