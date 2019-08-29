@@ -1942,7 +1942,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8b837d;
+  background: #8cbbff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3284,7 +3284,6 @@ body {
 @media (max-width: 767px) {
   .footer {
     font-size: 12px;
-    bottom: -30px;
   }
 }
 .busuanzi-count {
