@@ -22,7 +22,7 @@
   {% endif %}
 </div>
 
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 <span id="busuanzi_container_page_uv">
     <i class="fa fa-user"></i>
@@ -49,7 +49,7 @@
 setInterval("createtime()",250);
 </script>
 
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 <span id="busuanzi_container_site_pv">
  <i class="fa fa-eye"></i>

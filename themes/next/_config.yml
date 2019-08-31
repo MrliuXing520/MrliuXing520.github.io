@@ -815,3 +815,12 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+recent_posts:
+  enable: true
+  search: true
+  post: false
+  sidebar: false
+  icon: history
+  title: 近期文章
+  layout: block
