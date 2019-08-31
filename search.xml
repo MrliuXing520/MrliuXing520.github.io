@@ -37,7 +37,7 @@
   </entry>
   <entry>
     <title><![CDATA[Markdown图片居中]]></title>
-    <url>%2Fposts%2FMarkdown-0001.html</url>
+    <url>%2Fposts%2FHexo%2FMarkdown-0001.html</url>
     <content type="text"><![CDATA[Markdown对图片进行居中设置大小标准的markdown中提供了图片的设置大小的操作，但是在本地把图片编辑好的代码生成静态文件发现图片不能显示了。使用下面方法可以完美解决，当然希望以后的hexo版本希望能够解决这个问题。 一般的markdown语法设置图片大小标准的markdown，在图片后面加上 “=200x300” (200是宽度，300是高度，也可以之定义宽度)，就能实现下面的效果。但是有一些版本的hexo不行。 1![]("图片地址"=200x) 使用img标签，设置图片大小直接在markdown中使用HTML标签，多数markdown工具都支持。 1&lt;img width=200 src="图片地址" &gt; 图片居中markdown目前没有支持图片居中的，所有的图片要么是100%宽度，支持设置大小的markdown一般也是左对齐的，所以居中只能靠HTML标签了。 123&lt;div align=center&gt;![](图片地址 =200x)&lt;/div&gt; 或者： 123&lt;div align=center&gt; &lt;img width=200 src="图片地址" &gt;&lt;/div&gt; 效果如下：]]></content>
       <categories>
         <category>Markdown</category>
