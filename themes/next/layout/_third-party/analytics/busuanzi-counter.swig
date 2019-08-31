@@ -10,8 +10,13 @@
     </span>
   {% endif %}
 
+   {% if theme.run_time.enable %}
+    <span id="timeDate" title="网站运行时间">载入天数...</span><span id="times" title="网站运行时间">载入时分秒...</span>
+  {% endif %}
+
   {% if theme.busuanzi_count.site_pv %}
     <span class="site-pv">
+    <span class="post-meta-divider">|</span>
       {{ theme.busuanzi_count.site_pv_header }}
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
       {{ theme.busuanzi_count.site_pv_footer }}

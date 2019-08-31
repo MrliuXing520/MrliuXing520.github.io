@@ -554,11 +554,11 @@ busuanzi_count:
   # count values only if the other configs are false
   enable: true
   # custom uv span for the whole site
-  site_uv: false
+  site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer: 人次
   # custom pv span for the whole site
-  site_pv: false
+  site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer: 次
   # custom pv span for one page only
@@ -824,3 +824,7 @@ recent_posts:
   icon: history
   title: 近期文章
   layout: block
+
+run_time:
+  enable: true
+  creat_date: 05/28/2018 20:01:01
