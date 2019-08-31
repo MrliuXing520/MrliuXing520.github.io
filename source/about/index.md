@@ -1,6 +1,7 @@
 ---
 title: 关于
 date: 2019-08-01 11:49:01
+comments: false
 ---
 <blockquote class="blockquote-center">
 
