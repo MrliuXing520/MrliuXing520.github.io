@@ -288,7 +288,44 @@
       <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
     </div>
   </div>
-  <div id="local-search-result"></div>
+  <div id="local-search-result">
+    
+      <div style="text-align: center;padding: 3px 0 0;">
+       <div style="margin-top: 20px;font-size: 18px;font-weight: 600;border-bottom: 1px solid #ccc;">
+         <i class="fa fa-history" aria-hidden="true"></i>
+         近期文章
+       </div>
+       <ul style="margin: 0;padding: 0;list-style: none;">
+         
+         
+           <li>
+             <a href="/posts/Cloud-Studio.html" title="博客转移至云端" target="_blank">博客转移至云端</a>
+           </li>
+         
+           <li>
+             <a href="/posts/Visual-Studio-Code.html" title="Visual Studio Code隐藏目录解决方案" target="_blank">Visual Studio Code隐藏目录解决方案</a>
+           </li>
+         
+           <li>
+             <a href="/posts/Hexo/Hexo-0003.html" title="Hexo 多终端同步" target="_blank">Hexo 多终端同步</a>
+           </li>
+         
+           <li>
+             <a href="/posts/Hexo/Hexo-0002.html" title="HEXO NEXT主题美化" target="_blank">HEXO NEXT主题美化</a>
+           </li>
+         
+           <li>
+             <a href="/posts/Markdown-0001.html" title="Markdown图片居中" target="_blank">Markdown图片居中</a>
+           </li>
+         
+           <li>
+             <a href="/posts/Hexo/Hexo-0001.html" title="Hexo静态博客搭建" target="_blank">Hexo静态博客搭建</a>
+           </li>
+         
+       </ul>
+      </div>
+    
+  </div>
 </div>
 
 
@@ -808,7 +845,7 @@ setInterval("createtime()",250);
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "";
+    var search_path = "search.xml";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {
