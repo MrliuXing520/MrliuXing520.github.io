@@ -1942,7 +1942,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7aeb47;
+  background: #6b697d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3239,7 +3239,7 @@ img:hover {
 }
 body {
   background: none;
-  background-image: url("/images/bg.jpg");
+  background-image: url("http://wx1.sinaimg.cn/large/006Te2OUly1g67f0aip2kj30zk0m84bg.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3355,7 +3355,7 @@ body {
 .site-meta {
   height: 100px;
   background: none;
-  background-image: url("/images/logo.jpg");
+  background-image: url("http://wx1.sinaimg.cn/large/006Te2OUly1g67f0b2rm5j31ao0t6q8q.jpg");
   background-size: cover;
 }
 @media (max-width: 767px) {
